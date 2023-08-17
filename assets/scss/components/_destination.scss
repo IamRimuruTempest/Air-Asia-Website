@@ -1,0 +1,17 @@
+/*=============== DESTINATIONS ===============*/
+.destination {
+    margin-bottom: 5rem;
+}
+
+.destination__data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination__description {
+    p {
+        margin-bottom: 1.5rem;
+    }
+}
