@@ -1,17 +1,18 @@
 /*=============== DESTINATIONS ===============*/
 .destination {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
+  max-width: 1200px;
 }
 
 .destination__data {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 .destination__description {
-    p {
-        margin-bottom: 1.5rem;
-    }
+  p {
+    margin-bottom: 1.5rem;
+  }
 }

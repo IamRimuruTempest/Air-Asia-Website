@@ -1,74 +1,73 @@
 /*=============== STORIES ===============*/
 .stories {
-    margin-bottom: 5rem;
+  max-width: 1200px;
+  margin-bottom: 5rem;
 }
 
 .stories__container {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .stories__data {
-    display: grid;
-    grid-template-rows: 150px 150px 150px;
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
 }
 
 .stories__data-one {
-   display: grid;
-   grid-template-columns: 1fr 300px;    
+  display: grid;
+  grid-template-columns: 1fr 300px;
 }
 
 .stories__img-one {
-    height: 140px;
-    width: 100%;
-    object-position: center;
-    object-fit: cover;
+  height: 140px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
 }
 
 .stories__1 {
-    padding: .75rem;
+  padding: 0.75rem;
 
-    
-
-    p {
-        font-size: .80rem;
-    }
+  p {
+    font-size: 0.8rem;
+  }
 }
 
 h5 {
-    background-color: var(--first-color);
-    display: inline;
-    padding-left: .5rem;
-    padding-right: .5rem;
-    padding-top: .3rem;
-    padding-bottom: .3rem;
-    color: var(--white-color);
-    letter-spacing: 1px;
+  background-color: var(--first-color);
+  display: inline;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  color: var(--white-color);
+  letter-spacing: 1px;
 }
 
 .stories__data-two {
-    display: flex;
-    justify-content: space-between;
-    column-gap: .5rem;
-    width: 100%;
-    height: 140px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 0.5rem;
+  width: 100%;
+  height: 140px;
 }
 
 .stories__img-container {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .stories__img-two {
-    height: 140px;
-    width: 100%;
-    object-position: center;
-    object-fit: cover;
-    column-gap: .5rem;
+  height: 140px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  column-gap: 0.5rem;
 }
 
 .stories__tag {
-    position: absolute;
-    left: 0;
-    top: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
 }

@@ -1,30 +1,29 @@
 /*=============== HOME ===============*/
 .home {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
+  max-width: 1200px;
 }
 
 .home:before {
-    z-index: 777;
-    content: '';
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
+  z-index: 777;
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 
-
-
- .home__img {
-    z-index: 000;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: 83%; 
+.home__img {
+  z-index: 000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 83%;
 }
 
 // .home__img {
@@ -34,109 +33,102 @@
 // }
 
 .home__container {
-    position: relative;
-    align-content: center;
-    color: var(--white-color);
-    z-index: 900;
+  position: relative;
+  align-content: center;
+  color: var(--white-color);
+  z-index: 900;
 }
 
 .home__data h1,
-.home__social-link{
-    color: var(--white-color);
+.home__social-link {
+  color: var(--white-color);
 }
 
 .home__data {
-    h1 {
-        font-size: 3.2rem;
-        text-align: center;
-        margin-top: 9rem;
-        text-transform: uppercase;
-        font-weight: 700;
-    }
+  h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    margin-top: 9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 
-    p {
-        text-align: center;
-        font-size: 1.2rem;
-        letter-spacing: 3px;
-    }
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+  }
 }
-
 
 .home__social {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 5rem;
-    right: 0;
-    row-gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  row-gap: 1.5rem;
 
-    .home__social-link {
-        font-size: 1.2rem;
-    }
+  .home__social-link {
+    font-size: 1.2rem;
+  }
 }
 
-
 .home__search {
-
-    .home__search-data {
-        width: 100%;
-        display: flex;
-        column-gap: .5rem;
-        background: rgba(190,190,190,.3);
-        padding: 1.5rem;
-        border-radius: .5rem;
-        margin-top: 2rem;
-        letter-spacing: .005em;
-    }
-    
+  .home__search-data {
+    width: 100%;
+    display: flex;
+    column-gap: 0.5rem;
+    background: rgba(190, 190, 190, 0.3);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    letter-spacing: 0.005em;
+  }
 }
 
 .home__search-container {
-    h4 {
-        margin-bottom: 1rem;
-    }
+  h4 {
+    margin-bottom: 1rem;
+  }
 }
 
 .home__search-input {
-    display: flex;
-    background-color: var(--white-color);
-    border-radius: .5rem;
+  display: flex;
+  background-color: var(--white-color);
+  border-radius: 0.5rem;
+  color: var(--text-color);
+
+  p {
     color: var(--text-color);
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0;
+    font-size: 0.75rem;
+  }
 
-    p {
-        color: var(--text-color);
-        padding-top: .5rem;
-        padding-left: .5rem;
-        padding-bottom: 0;
-        font-size: .75rem;
-    }
-
-    .input__border{
-        border-top-left-radius: .5rem;
-        border-bottom-left-radius: .5rem;
-        border-top-right-radius: .5rem;
-        border-bottom-right-radius: .5rem;
-    }
-
-    
+  .input__border {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
 }
 
 .home__search-button {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 
-    .search__button {
-        height: 3.7rem;
-        display: inline-block;
-        width: 15rem;
-        border-radius: .5rem;
-        color: var(--white-color);
-        font-weight: var(--font-semi-bold);
-        background-color: var(--first-color);
-    }
+  .search__button {
+    height: 3.7rem;
+    display: inline-block;
+    width: 15rem;
+    border-radius: 0.5rem;
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+    background-color: var(--first-color);
+  }
 
-    .search__button:hover {
-        background-color: var(--first-color-alt);
-    }
+  .search__button:hover {
+    background-color: var(--first-color-alt);
+  }
 }
-

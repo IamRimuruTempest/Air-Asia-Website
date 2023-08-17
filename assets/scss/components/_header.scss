@@ -1,88 +1,70 @@
 /*=============== HEADER ===============*/
-.header{
-    width: 100%;
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    letter-spacing: .005em;
-    font-weight: 700;
+.header {
+  max-width: 1200px;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  letter-spacing: 0.005em;
+  font-weight: 700;
 }
 
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-
-
-
-
-.nav{
-    height: var(--header-height);
+  .logo {
     display: flex;
-    justify-content: space-between;
+    text-align: center;
     align-items: center;
+    justify-content: center;
+  }
 
-    .logo {
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+  .logo img {
+    height: 40px;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 2.5rem;
+  }
+
+  .nav__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1.5rem;
+
+    .icon__button {
+      font-weight: 700;
+      font-size: 1rem;
+      align-items: center;
+      justify-content: center;
     }
+  }
 
-    .logo img {
-        height: 40px;
-    }
-
- 
-    .nav__list{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        column-gap: 2.5rem;
-    }
-
-
-    .nav__button {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        column-gap: 1.5rem;
-
-        .icon__button {
-            font-weight: 700;
-            font-size: 1rem;
-            align-items: center;
-            justify-content: center;
-        }
-    }
-    
-    .nav__link, 
-    .nav__logo, 
-    .nav__button{
-        color: var(--white-color);
-        font-weight: var(--font-semi-bold);
-    }
-
-    
-    
-
-   
+  .nav__link,
+  .nav__logo,
+  .nav__button {
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+  }
 }
-
-
 
 .scroll-header {
-    background-color: var(--body-color);
-    box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, .15);
-    z-index: 999;
+  background-color: var(--body-color);
+  box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
+  z-index: 999;
 }
 
 .scroll-header .nav__logo,
 .scroll-header .nav__link,
 .scroll-header .nav__item,
 .scroll-header .nav__button {
-    color: var(--first-color);
+  color: var(--first-color);
 }
-
-
-
-

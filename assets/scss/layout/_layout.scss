@@ -1,22 +1,22 @@
 /*=============== REUSABLE CSS CLASSES ===============*/
-.section{
-    padding: 4.5rem 0 1rem;
-    
-    // &__title, &__title-center{
-    //     font-size: var(--h2-font-size);
-    //     color: var(--title-color);
-    //     text-align: center;
-    //     margin-bottom: var(--mb-1);
-    // }
+.section {
+  padding: 4.5rem 0 1rem;
+
+  // &__title, &__title-center{
+  //     font-size: var(--h2-font-size);
+  //     color: var(--title-color);
+  //     text-align: center;
+  //     margin-bottom: var(--mb-1);
+  // }
 }
 
 /*=============== LAYOUT ===============*/
-.container{
-    margin-left: 7.938rem;
-    margin-right: 7.938rem;
+.container {
+  margin-left: 7.938rem;
+  margin-right: 7.938rem;
 }
 
-.grid{
-    display: grid;
-    gap: 1.5rem;
+.grid {
+  display: grid;
+  gap: 1.5rem;
 }
